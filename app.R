@@ -34,9 +34,8 @@ ui <- dashboardPage(
 # Define server logic
 server <- function(input, output, session) {
   # Load preprocessed data with specified column types
-  cleaned_data <- read_csv("/CleanedData.csv", show_col_types = FALSE)
-  non_numeric_cols <- read_csv("/NonNumericCols.csv", show_col_types = FALSE)
-  standardized_data <- read_csv("/StandardizedData.csv", show_col_types = FALSE)
+  non_numeric_cols <- read_csv("data/NonNumericCols.csv", show_col_types = FALSE)
+  standardized_data <- read_csv("data/StandardizedData.csv", show_col_types = FALSE)
   
   # Perform PCA
   pca_result <- prcomp(standardized_data, scale. = TRUE)
