@@ -1,0 +1,26 @@
+name: Quarto Publish
+
+on:
+  push:
+    branches:
+      - main  # Change to your default branch if different
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render site
+        run: quarto render
+
+      - name: Publish to Quarto Pub
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: quarto-pub
+          token: ${{ secrets.QUARTO_PUB_TOKEN }}
