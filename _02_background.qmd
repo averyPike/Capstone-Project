@@ -13,3 +13,17 @@ Figure 1b: A diagram of Structure 8 located in Trench P.
 ```
 
 Due to the prehistoric nature of Neolithic archaeology, interpretations of material culture heavily rely on scientific studies. As one of the largest active archaeological sites globally, the Ness has attracted numerous archaeologists eager to utilize modern technology and innovative techniques to extract as much information as possible from the material culture. One such project involves the regular geochemical sampling of soils within and around the excavated structures on the site. Over twelve dig seasons, excavators have collected soil samples for geochemical analysis at regular intervals. These analyses, conducted using X-ray fluorescent spectroscopy (XRF), have resulted in one of the largest databases of geochemical spectral signatures in archaeological research.
+
+## X-ray Fluorescent Spectroscopy (XRF)
+XRF spectroscopy is an analytical technique used to determine the elemental composition of materials. The process begins by directing high-energy X-rays at a sample, causing the atoms within the material to become excited and emit secondary (or fluorescent) X-rays. Each element in the material emits X-rays at specific characteristic energies, allowing for their identification and quantification. Specifically, the X-rays cause electrons in the inner shells of the atoms to be ejected. As electrons from higher energy levels fall into the lower energy levels to fill these vacancies, they emit X-rays with energies that are characteristic of the elements present in the sample.
+
+The output of XRF analysis is a spectrum that displays the energy levels of the emitted X-rays, with peaks corresponding to different elements. The intensity of these peaks can be used to determine the concentration of each element within the sample. This spectrum provides a comprehensive elemental fingerprint of the material, which can be used to look for various types of analysis.
+
+In archaeological contexts, in this study with soil samples, XRF allows researchers to obtain detailed geochemical profiles of the sampled materials. These profiles can reveal information about the provenance of materials, past human activities, and environmental conditions at the site. The ability to analyze a wide range of elements simultaneously makes XRF a powerful tool for constructing detailed geochemical maps and databases.
+
+Previous archealogical studies have primarily used much smaller quantities of data similar to this study for univariate analysis on specific elemental signatures. At the Ness of Brodgar, early studies have used these techniques in projects that mainly involved creating heatmaps to show the concentration of individual elements within specific structures. While these heatmaps provide valuable insights, they represent a limited scope of what can be achieved with the comprehensive geochemical data available. This project seeks to expand on prior work by employing a novel methodology that leverages the extensive XRF data and the use of the machine learning algorithms (primarily principal component analysis) to create comparative geochemical signatures within the site's database. This approach aims to enhance the interpretative potential of the data, offering a new level of geochemical comparative analysis that has not been previously utilized in archaeological research.
+
+Figure 2: A heatmap created by Lara Shinsato (CITATION NEEDED) showing (COMPLETE INFORMATION):
+```{r}
+
+```
