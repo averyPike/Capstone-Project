@@ -1,1 +1,16 @@
 # Methods
+This study introduces a novel approach to analyzing geochemical data derived from X-ray fluorescent spectroscopy (XRF) to create comparative geochemical signatures within a localized archaeological database. The primary objective is to leverage machine learning algorithms, particularly Principal Component Analysis (PCA), to develop distinctive geochemical signatures for comparative analysis.
+
+## Data Collection and Preparation
+Geochemical samples from the Ness of Brodgar archaeological site were collected over multiple excavation seasons. XRF was employed to analyze these samples, providing a comprehensive set of geochemical data. The study focused on using this extensive dataset to develop and refine a methodology for producing comparative geochemical signatures.
+
+## Principal Component Analysis (PCA)
+To manage and interpret the complex spectral data, PCA was used to reduce the dimensionality of the geochemical signatures. PCA transforms the multi-dimensional geochemical data into principal components that capture the primary variance within the dataset. This dimensionality reduction facilitates the identification of distinctive geochemical signatures and their comparative analysis across different contexts within the site.
+
+The process involved normalizing the data and applying PCA to extract meaningful patterns and relationships. This technique allows for the simplification of complex geochemical data into easily comparable signatures, enhancing the interpretative potential of the data.
+
+## Visualization and Interpretation
+An interactive visualization tool was developed to aid in understanding the PCA results. This tool allows users to explore the relationships between different contexts and view the geochemical patterns dynamically. By selecting specific contexts and visualizing principal components, researchers can gain insights into the spatial distribution and comparative aspects of the geochemical signatures.
+
+## Integration and Application
+The methodology developed in this study not only improves the comparative analysis of geochemical data within the Ness of Brodgar site but also provides a framework for applying similar techniques to other archaeological contexts. The tools and techniques presented offer a new level of insight into site-specific geochemical patterns, enabling more informed archaeological interpretations.
