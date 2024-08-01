@@ -1,1 +1,39 @@
 # Results
+## Principal Component Analysis
+In trying to conceptualize a geochemical fingerprint fit for comparison accross many different geochemical samples, Machine Learning provides a valuable tool in the use of Principal Component Analysis (PCA). PCA is a dimensionality reduction technique that transforms a dataset with potentially correlated variables into a set of linearly uncorrelated variables known as principal components. The primary objective of PCA is to identify patterns in data and express the data in such a way that the similarities and differences are highlighted. Conversely, the XRF spectra provides readings for many different elemental signatures and as such it can be hard to compare general geochemical makeup across samples. For this reason and due to the limitation of much smaller datasets, most XRF studies have focused on signatures of only a few elements. The size of Ness of Brodgar geochemical database provides a unique opportunity to apply PCA to these signatures.
+
+```{r}
+
+```
+
+
+### Dimension Reduction for Developing Geochemical Fingerprint
+PCA accomplishes a number of tasks for the purpose of this study. The first of which is that conducting principal component analysis is able to reduce the many dimensions of elemental signatures present in a geochemical sample into Principal Components that capture the variance of the dataset while reducing the dimensions. Future research at the Ness of Brodgar will look to understand the relationship between geochemical composition and other data accross the site. While specific elemental signatures will sometimes be of interest, more often than not having a general understanding of the entire geochemical signature of a soil relative to other areas of the site will hold more value to the researcher. To allow for such comparisons, PCA can be used for dimension reduction. After normalizing the dimensions with a standard scaling function made possible by the gaussian distribution of the individual elemental dimensions, PCA machine learning algorithms were run on the dataset. By plotting the values of Principal Components 1 and 2 for each sample a general understanding of similarity accross samples could be visualized.
+
+### Understanding Elemental Influence
+PCA also helped to address a secondary question regarding the geochemical makeup of the samples. Geochemical specialists expressed interest in knowing which specific elements contributed the most to the variance of the overall signature on the site. One of the added benefits of conducting PCA is that it provides loadings, which indicate the contribution of each original variable (element) to the principal components.
+
+In this study, the loadings for Principal Components 1 and 2 were calculated and tabulated. These loadings reveal which elements have the greatest influence on the variance captured by these principal components. Specifically, the elements with the highest absolute loadings for PC1 are the ones that affect the overall variance of the data the most. Similarly, the elements with high absolute loadings for PC2 are influential in the second direction of variance.
+
+By examining these loadings, researchers can identify which elements are driving the major patterns observed in the data. For example, if an element such as Iron (Fe) has a high loading on PC1, it suggests that variations in Iron concentration are a significant source of variability in the dataset. This information can guide further geochemical analysis and help in understanding the elemental composition of different contexts within the site.
+
+
+Figure: A table showing the loading values (coefficients of the eigenvalues) for Principal Component 1 and 2 of PCA on Structure 8.
+```{r}
+
+```
+
+
+### Interactive Principal Component Plot for Visualization
+An interactive principal component plot was developed to aid researchers and specialists in visualizing the geochemical data. This tool allows users to select specific contexts or phases from a dropdown menu and observe the relationships and similarities between different areas of the site. By plotting the principal components, users can intuitively grasp the underlying geochemical patterns and how different contexts compare to one another.
+
+The interactive nature of the plot makes it possible to highlight specific samples and contexts, facilitating a deeper understanding of the spatial distribution of geochemical signatures. This visualization tool is designed to be user-friendly, allowing site specialists to explore the data dynamically and make informed interpretations based on the visual representations of the principal components.
+
+The dropdown selection feature enhances the utility of the PCA results by enabling targeted analysis. Researchers can focus on particular areas of interest, compare them to other parts of the site, and potentially identify geochemical trends that might have been overlooked in a static analysis. This interactive approach significantly improves the ability to conduct detailed geochemical investigations and supports the ongoing research efforts at the Ness of Brodgar.
+
+```{r}
+library(shiny)
+
+# Run the Shiny app
+shiny::runApp("app.R", launch.browser = FALSE)
+```
