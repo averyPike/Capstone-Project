@@ -1,1 +1,15 @@
 # Background
+## The Ness of Brodgar
+The Ness of Brodgar is a Neolithic archaeological complex located in the Orkney Islands, Scotland, UK. Situated in the heart of Neolithic Orkney, a UNESCO World Heritage site, the Ness has been pivotal in understanding Neolithic civilization in the North Atlantic. The complex features massive stone structures that span the width of the isthmus where the Ness is located. The site was in regular use for hundreds of years, with evidence of occupation dating back to at least 3300 BCE and extending over a thousand years later prior to its abandonment. This historical significance as well as the massive scale of the excavation itself makes the Ness of Brodgar one of the most important archaeological excavations in the world.
+
+Figure 1a: An aerial image of Trench P taken in (YEAR NEEDED).
+```{r}
+
+```
+
+Figure 1b: A diagram of Structure 8 located in Trench P.
+```{r}
+
+```
+
+Due to the prehistoric nature of Neolithic archaeology, interpretations of material culture heavily rely on scientific studies. As one of the largest active archaeological sites globally, the Ness has attracted numerous archaeologists eager to utilize modern technology and innovative techniques to extract as much information as possible from the material culture. One such project involves the regular geochemical sampling of soils within and around the excavated structures on the site. Over twelve dig seasons, excavators have collected soil samples for geochemical analysis at regular intervals. These analyses, conducted using X-ray fluorescent spectroscopy (XRF), have resulted in one of the largest databases of geochemical spectral signatures in archaeological research.
