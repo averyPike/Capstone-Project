@@ -1,9 +1,8 @@
 ---
-title: "Capstone Project"
-subtitle: Subtitle
+title: "Leveraging Principal Component Analysis for Enhanced Geochemical Signatures in Archaeological Research at the Ness of Brodgar"
+subtitle: 
 authors:
-  - Bob
-  - Jane
+  - Avery Pike
 title-block-banner: true
 format: 
   html:
