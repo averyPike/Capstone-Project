@@ -32,5 +32,5 @@ The interactive nature of the plot makes it possible to highlight specific sampl
 The dropdown selection feature enhances the utility of the PCA results by enabling targeted analysis. Researchers can focus on particular areas of interest, compare them to other parts of the site, and potentially identify geochemical trends that might have been overlooked in a static analysis. This interactive approach significantly improves the ability to conduct detailed geochemical investigations and supports the ongoing research efforts at the Ness of Brodgar.
 
 ```{r}
-[My Shiny App](http://127.0.0.1:6540/)
+[My Shiny App](https://averypike.shinyapps.io/capstone-project/)
 ```
