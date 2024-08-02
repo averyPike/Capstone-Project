@@ -1,0 +1,5 @@
+site:
+  url: "https://averyPike.github.io/Capstone-Project"
+  branch: gh-pages
+  repo: averyPike/Capstone-Project
+  destination: .
