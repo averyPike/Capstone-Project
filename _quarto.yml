@@ -6,6 +6,10 @@ website:
   title: "Leveraging Principal Component Analysis for Enhanced Geochemical Signatures in Archaeological Research at the Ness of Broddgar"
   description: "A description of your project."
   output-dir: "_site"
+  site-url: https://averyPike.github.io/Capstone-Project
+  repo-url: https://github.com/averyPike/Capstone-Project
+  repo-branch: main
+  page-merge: auto
 
 # Additional options
 theme:
