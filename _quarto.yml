@@ -5,3 +5,17 @@ website:
   title: "Leveraging Principal Component Analysis for Enhanced Geochemical Signatures in Archaeological Research at the Ness of Broddgar"
   description: "A description of your project."
   output-dir: "_site"
+
+# Correct placement of output-dir
+output-dir: "_site"
+
+# Additional options
+theme:
+  light: "lightly"
+  dark: "darkly"
+
+format:
+  html:
+    theme:
+      light: lightly
+      dark: darkly
