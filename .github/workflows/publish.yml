@@ -15,7 +15,7 @@ jobs:
     - name: Setup Quarto
       uses: quarto-dev/quarto-actions/setup@v2
       with:
-        version: latest
+        version: "1.3.340"  # Specify a stable version here
         
     - name: Publish to Quarto Pub
       env:
