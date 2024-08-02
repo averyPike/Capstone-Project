@@ -9,7 +9,6 @@ website:
   site-url: https://averyPike.github.io/Capstone-Project
   repo-url: https://github.com/averyPike/Capstone-Project
   repo-branch: main
-  page-merge: auto
 
 # Additional options
 theme:
