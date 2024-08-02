@@ -1,27 +1,23 @@
-name: Quarto Publish
+name: Publish to Quarto Pub
 
 on:
   push:
     branches:
-      - main  # Change to your default branch if different
+      - main
 
 jobs:
-  publish:
+  build-deploy:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Render site
-        run: quarto render
-
-      - name: Publish to Quarto Pub
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: quarto-pub
-          token: ${{ secrets.QUARTO_PUB_TOKEN }}
-
+    - uses: actions/checkout@v3
+    
+    - name: Setup Quarto
+      uses: quarto-dev/quarto-actions/setup@v2
+      with:
+        version: latest
+        
+    - name: Publish to Quarto Pub
+      env:
+        QUARTO_PUB_TOKEN: ${{ secrets.QUARTO_PUB_TOKEN }}
+      run: quarto publish quarto-pub
