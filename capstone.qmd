@@ -1,6 +1,6 @@
 ---
 title: "Leveraging Principal Component Analysis for Enhanced Geochemical Signatures in Archaeological Research at the Ness of Brodgar"
-subtitle: 
+subtitle: "Developing geochemical signatures from XRF in archaeological contexts"
 authors:
   - Avery Pike
 title-block-banner: true
